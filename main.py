@@ -12,9 +12,6 @@ output = 'trained_model.h5'
 if not os.path.exists(output):
     gdown.download(f"https://drive.google.com/file/d/1ONXVIC1CPGKVKwCZXTX_7NC156ozy4aL/view?usp=sharing", output, quiet=False)
 
-if not os.path.exists("trained_model.h5"):
-    st.warning("Downloading model... Please wait a moment.")
-
 
 
 #tensorflow model prediction
