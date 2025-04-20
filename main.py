@@ -1,16 +1,16 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
-import os
-import gdown
+# import os
+# import gdown
 
-# Google Drive model file ID
-file_id = '1ONXVIC1CPGKVKwCZXTX_7NC156ozy4aL'  # replace with your file ID
-output = 'trained_model.h5'
+# # Google Drive model file ID
+# file_id = '1ONXVIC1CPGKVKwCZXTX_7NC156ozy4aL'  # replace with your file ID
+# output = 'trained_model.h5'
 
-# Download only if not already downloaded
-if not os.path.exists(output):
-    gdown.download(f"https://drive.google.com/file/d/1ONXVIC1CPGKVKwCZXTX_7NC156ozy4aL/view?usp=sharing", output, quiet=False)
+# # Download only if not already downloaded
+# if not os.path.exists(output):
+#     gdown.download(f"https://drive.google.com/file/d/1ONXVIC1CPGKVKwCZXTX_7NC156ozy4aL/view?usp=sharing", output, quiet=False)
 
 
 
