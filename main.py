@@ -32,9 +32,6 @@ app_mode = st.sidebar.selectbox(
     "📌 Navigate to:",
     ["Home", "About Project", "Predictions"]
 )
-
-st.sidebar.markdown("---")
-st.sidebar.markdown("Made with ❤️ using Streamlit")
 # st.sidebar.markdown("[GitHub Repo](https://github.com/yourusername/project) | [Contact](mailto:youremail@example.com)")
 
 #Main Page 
